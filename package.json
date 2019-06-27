@@ -1,0 +1,27 @@
+{
+  "name": "enzyme-flight-rules",
+  "version": "1.0.0",
+  "description": "Flight rules for enzyme",
+  "main": "index.js",
+  "scripts": {
+    "toc": "doctoc --github README.md",
+    "diff": "test -z \"`git diff -- README.md`\" && test -z \"`git diff -- README_*.md`\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forefront-ux/enzyme-flight-rules.git"
+  },
+  "keywords": [
+    "enzyme"
+  ],
+  "author": "Kuma Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forefront-ux/enzyme-flight-rules/issues"
+  },
+  "homepage": "https://github.com/forefront-ux/enzyme-flight-rules#readme",
+  "devDependencies": {
+    "anchor-markdown-header": "^0.5.7",
+    "doctoc": "^1.4.0"
+  }
+}
